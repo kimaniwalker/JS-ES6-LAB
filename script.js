@@ -68,5 +68,30 @@ let functotal = (x, y) => {
 functotal(4,2);
 
 
+// Write a function that takes 3 parameters: name, location, favFood.
+// Create an array with 3 values, have the values match the order of the 3 parameters. Ex. let arr = [“Paul”, “Birmingham”, “Kimchi”];
+
+let infoarray = ["Paul", "Birmingham" ,"Kimichi"];
+
+let info = (name, location, favFood) => {
+console.log(...infoarray)
+}
+
+info();
+
+// Create a variable that has a value of your name.
+let names = ['Kimani'];
+
+// Write a function that takes a parameter, name the parameter whatever you’d like.
+// Using spread syntax, create a variable in the function that takes the string you pass into the function and spreads it into an array.
+// Using a for loop, loop through the spread string and console log each value of the string.
+function namesparam() {
+    let passtring = 'Joe';
+    names.push(passtring); 
+    console.log(...names);
+}
+
+namesparam();
+
 
 
